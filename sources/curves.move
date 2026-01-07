@@ -2,8 +2,8 @@
 module dexlyn_swap::curves {
 
     /// For pairs like BTC, Aptos, ETH. x * y = k
-    struct Uncorrelated {}
+    struct Uncorrelated has drop, store {}
 
     /// For stablecoins like USDC, USDT. x^3*y + x*y^3 = k
-    struct Stable {}
+    struct Stable has drop, store {}
 }
