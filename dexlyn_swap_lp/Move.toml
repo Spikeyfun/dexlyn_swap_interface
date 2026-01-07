@@ -1,7 +1,7 @@
 [package]
 name = 'DexlynswapLP'
 version = '0.1.0'
-upgrade_policy = "compatible"
+authors = []
 
 [addresses]
 dexlyn_swap_lp = "0x22a28a1b5264935d4778d542b1e84bca8879cf78f6183e1a9429b56a40a1a7c4"
